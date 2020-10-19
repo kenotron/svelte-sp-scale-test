@@ -1,0 +1,15 @@
+{
+	"name": "demo-app",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte dev",
+		"build": "svelte build",
+		"g": "node tools/generate.mjs"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "0.0.7",
+		"@sveltejs/kit": "0.0.17",
+		"@sveltejs/snowpack-config": "^0.0.3",
+		"svelte": "^3.29.0"
+	}
+}
